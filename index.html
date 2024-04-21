@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic-Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body class="">
+    <!-- main -->
+    <div class="flex flex-row justify-center items-center gap-10 w-[800px] h-[500px]">
+      <!-- left arrow -->
+      <button class=" bg-[#e05757] p-3 h-16 w-16 rounded-full">
+        <img src="./images/right-arrow.png" alt="" class="rotate-180 leftbutton">
+      </button>
+      <!-- images -->
+      <div class="w-full h-full overflow-hidden">
+          <div class="slider flex flex-row items-center w-full h-full">
+            <img src="./images/1.jpg" alt="" class="slider-image">
+            <img src="./images/2.jpg" alt="" class="slider-image">
+            <img src="./images/3.jpg" alt="" class="slider-image">
+            <img src="./images/4.jpg" alt="" class="slider-image">
+          </div>
+      </div>
+      <!-- right arrow -->
+      <button class=" bg-[#e05757] p-3 h-16 w-16 rounded-full">
+        <img src="./images/right-arrow.png" alt="" class="rightbutton">
+      </button>
+    </div>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
